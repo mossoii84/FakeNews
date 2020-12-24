@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapterForEntity);
 
 
-        TextView textViewGet = findViewById(R.id.id);
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(ENDPOINT_URL)
                 .addConverterFactory(GsonConverterFactory.create())

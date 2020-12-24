@@ -1,19 +1,13 @@
 package com.example.fakenewsretrofit.AdapterForEntity;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.example.fakenewsretrofit.Entity.NewsInfo;
-import com.example.fakenewsretrofit.Entity.Publicity;
 import com.example.fakenewsretrofit.MainActivity;
 import com.example.fakenewsretrofit.R;
 import com.example.fakenewsretrofit.retrogit_controller.CategoryModel;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class AdapterForEntity extends RecyclerView.Adapter<MainNewsViewHolder> {

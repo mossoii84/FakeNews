@@ -1,20 +1,14 @@
 package com.example.fakenewsretrofit.Entity;
 
 
-import android.view.View;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-
-public class NewsInfo  extends RecyclerView.ViewHolder{
+// пока этот класс не используется
+public class NewsInfo{
     private String title;
     private String description;
 
 
 
-    public NewsInfo(@NonNull View itemView) {
-        super(itemView);
-    }
 //    @IntegerRes
 //    private int imageView;
 
